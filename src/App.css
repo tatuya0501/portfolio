@@ -1,0 +1,121 @@
+.App{
+  width: 100%;
+  height: 100vh;
+  font-size: 18px;
+ background-color: #66e29e;
+
+}
+/*ヘッター*/
+header{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(57, 57, 55);
+  
+  color: black;
+
+  width: 100%;
+  z-index: 10;
+  
+}
+header.logo h3 {
+  font-size: 60px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+
+
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s;
+}
+
+.tatuya p {
+ color: black; /* App.jsのclass nameと同じやつ*/
+}
+.box {
+  align-items: center;
+  background-color: #3cb371;
+  color: #fff;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  margin: 50px auto;
+  width: 120px;
+}
+.tatuya h1{
+  text-align:  center;
+  font-size:xx-large;
+}
+.osada h1{
+  text-align:  center;
+  font-size: 30px;
+
+}
+.ima Canvas{
+  width: 100%;
+  height:100%;
+}
+.tatuya  h2 {
+  color: green;
+}
+.pino  {
+  position: relative;
+  top: 2px;
+  left:1000px;
+}
+.video1 video {
+  position: relative;
+  top: 170px;
+  left: 50px;
+  width: 800px;
+  
+}
+.f1 {
+  margin-top: auto;
+  margin: auto;
+
+}
+.tatuya img{
+  margin : 0 auto;
+}
+.HomeP {
+
+  background-image: url(./IMAG111.jpg);
+  background-size:200%;
+  height: 900px;
+}
+.card {
+  background-image: url(./IMAG111.jpg);
+  background-size:200%;
+  height: 900px;
+}
+
+.name  {
+  color: white;
+   text-align:center;
+   font-size: 50px;
+  
+}
+.nene {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 1px 2px 3px black;
+  margin-top: 50px;
+  font-family: HGRPP1;
+}
+.gallry {
+  background-color: #beede7;
+}
+.video1 {
+  position: absolute;
+  bottom: 450px;
+  left: 25px;
+ 
+}
