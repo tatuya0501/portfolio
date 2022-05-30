@@ -93,7 +93,8 @@ nav ul li a {
 .card {
   background-image: url(./IMAG111.jpg);
   background-size:200%;
-  height: 900px;
+  height: auto;
+  max-width: 100%;
 }
 
 .name  {
@@ -115,7 +116,13 @@ nav ul li a {
 }
 .video1 {
   position: absolute;
-  bottom: 450px;
-  left: 25px;
+  top: 10%;
+  left: 4%;
+
  
+}
+.nenevido {
+ 
+  height: auto;
+  max-width: 50%;
 }

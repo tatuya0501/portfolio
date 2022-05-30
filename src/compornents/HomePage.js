@@ -14,12 +14,13 @@ function HomePage() {
         </div>
                 <div className='flex flex-col justify-center items-center gap-4 bg-slate-500 bg-opacity-90 py-10'>
                 <div className='relative md:w-50 md:h-50 w-40 h-50'>
-                  <img className='mask mask-squircle' src="./img7.png" />
+
+                  <img className='mask mask-squircle' id='icon' src="./img7.png" />
                  </div>
               <div className='md:block hidden mockup-code bg-opacity-80 border-base-content border-2 border-opacity-10 w-4/6'>
                  <pre data-prefix="$"><code>ポートフォリオサイトです！</code></pre>
              </div>
-          <div className='md:hidden text-white font-mono'>ポートフォリオサイトです！<br />nakaatsu&apos;s site.</div>
+          <div className='md:hidden text-white font-mono'>ポートフォリオサイトです！</div>
            </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const GamePage = () => {
     
 <div className='card'>
     <div className='nene'>
-      ねねっちクエストをUnityで再現しました！！
+     <p> ねねっちクエストをUnityで再現しました!</p>
     </div>
   <div className='nenevideo'>
   <img src="./img11.jpg"></img>
